@@ -1,0 +1,331 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+   
+}
+.navbar{
+    height: 60px;  
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.nav-logo{
+    height: 50px;
+    width: 140px;
+}
+.logo{
+    background-image: url("amazon logo.png");
+    height: 40px;
+    background-size: cover;
+    width:100%;
+    margin-top: 5%;  
+}
+
+.border{
+    border: 1px solid transparent;
+    
+}
+.border:hover{
+    border: 1px solid white;
+
+}
+
+.icon{
+    height: 15;
+    font: size 14px ;
+    color: #ffffff;
+}
+.add{
+    font-size: 12px;
+    color:#cccccc ;
+    margin-left: 20px;
+}
+.add-icon{
+    display: flex;
+}
+.nav-search{
+    width: 850px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-bar{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68 ;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+span{
+    font-size: 0.7rem;
+}
+.accounts{
+    font-size: 0.85rem;
+    background-color: black;
+    color: white;
+    border: none;  
+    font-weight: 700;
+}
+.cart i {
+    font-size: 30px;
+}
+.cart{
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items:center;
+    font-size: 14px;
+    margin-top: 60px;
+    width: 100%;
+    
+}
+
+.All{
+    display: flex;
+}
+.hero-section{
+    background-image: url("header image1.jpg");
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+.new{
+   align-self:none;
+   margin-bottom: 100px;
+   margin-right: 1100px;
+   background-color: transparent;
+   border: none ;
+   border-top-left-radius:20px ;
+   border-bottom-right-radius:20px ;
+   background-image: url("merry1.gif");
+   background-size:cover;
+   position: relative;
+   height: 250px;
+   width: 250px;
+   transition: trasform 0.3s ease,box-shadow 0.3s ease;
+}   
+.new:hover{
+    transform: scale(1.1);
+    box-shadow:0 12px 25px rgba(0,0,0,0.3);
+}
+.panelh{
+    color: black;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white ;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+    position: absolute; 
+    
+}
+
+.panelh a {
+    color: #007185;
+}
+.panelh a:hover{
+    text-decoration: underline;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color:#d8af9d; */
+    /* background-image: linear-gradient(to bottom, #d8af9d 0% ,#d8af9d 30%,#FFFFFF 30%, #FFFFFF 100%); */
+    background: linear-gradient(to bottom, #d8af9d 5%, #dde2e5 20%);
+    flex-wrap: wrap;
+}
+.box{
+    height: 420px;
+    width: 23%;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    text-align: center;
+    margin-top: 2px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+.smallbox{
+    transition: trasform 0.2s ease,box-shadow 0.2s ease;
+}
+.smallbox:hover{
+    transform: scale(1.05);
+    box-shadow:0 12px 25px rgba(0,0,0,0.3);
+}
+.bigbox{
+    height: 285px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color:white ;
+    text-align: start;
+    font-size: 21px; 
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+.images1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0px;
+    margin-top: 20px;
+}
+.images1 img{
+    width: 240px;
+    height: 200px;
+    background-size: cover;
+}
+.box-img{
+      height: 300px;
+      padding: 20px 15px 0px;
+      margin-right: 15px;
+      margin-left: 15px;
+      background-size: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+}
+
+.box h1{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.see{
+    text-align: start;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    color: rgb(53, 132, 249);
+    font-size: 13px;
+}
+.see:hover{
+    text-decoration: underline;
+}
+
+.see1{
+    text-align: start;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: rgb(53, 132, 249);
+}
+.see1:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 100%;
+}
+
+.foot-panel1{
+    background-color:#37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.08remrem;
+}
+
+.footpanel2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 50px;
+}
+ ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    
+}
+ul p{
+    font-weight: 700;
+}
+
+.footpanel3{
+    background-color:#222f3d ;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo1{
+    background-image: url("amazon logo.png");
+    height: 40px;
+    background-size: cover;
+    width:120px; 
+    margin-top: 5px; 
+    
+}
+.footpanel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    margin-left: 20px;
+    margin-top: 5px;
+}
